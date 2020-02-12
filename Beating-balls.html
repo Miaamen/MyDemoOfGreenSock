@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"> </script>
+		<style>
+			.container{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
+			
+			.point{
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				border-radius: 50%;
+				margin-left: 15px;
+			}
+			
+			.point-1{
+				background: #A8DAA8;
+			}
+			
+			.point-2{
+				background: #a8ceda;
+			}
+			
+			.point-3{
+				background: #daa8a8;
+			}
+			
+			.point-4{
+				background: #daa8d5;
+			}
+			
+			.point-5{
+				background: #aea8da;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="point point-1"></div>
+			<div class="point point-2"></div>
+			<div class="point point-3"></div>
+			<div class="point point-4"></div>
+			<div class="point point-5"></div>
+		</div>
+		
+		<script>
+			TweenMax.staggerTo(".point", 0.5, 
+			{
+				y:-20,
+				yoyo:true,
+				repeat:-1
+			},0.1);
+			
+		</script>
+	</body>
+</html>
