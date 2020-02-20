@@ -7,3 +7,5 @@
 2.Beating-balls --- 我想到写动画就会想到写loading动画，这个是我的第一个loading动画 --- https://codepen.io/miaamen/pen/zYGvEvO
 
 3.shiningTextWithGreenSock --- 最直接的对时间轴（TimelineMax.add()）的学习 --- https://codepen.io/miaamen/pen/QWbEMjW
+
+4.undrawSVG-with-GSAP --- 用undraw里的SVG图进行动画化 --- https://codepen.io/miaamen/pen/vYOXdqL
